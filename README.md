@@ -28,3 +28,7 @@ Certainly! Let's break down the provided code step by step to understand its com
 <h3>Calculating Portfolio Returns: </h3>It multiplies the daily returns by the weights of each asset and sums them to get the overall portfolio return for each day.
 <h3>Cumulative Returns:</h3> The cumulative returns are calculated by taking the product of (1 + daily returns) over time.
 <h3>Plotting: </h3>Uses matplotlib to create a line plot of cumulative returns over time.
+
+<h2>Conclusion</h2>
+This code serves as a foundation for building a stock portfolio analysis tool in Python. You can modify it further to include more features, such as additional stocks, different time frames, or even risk management metrics.
+
