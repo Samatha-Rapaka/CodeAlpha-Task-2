@@ -17,8 +17,14 @@ Certainly! Let's break down the provided code step by step to understand its com
 <h3>dropna():</h3> This method removes any rows with NaN values, which occur for the first row since there is no previous day to compare.
 
 <h2>4. Portfolio Class</h2>
-<h3></h3>Class: Portfolio encapsulates the concept of a stock portfolio.
-Constructor (__init__): Initializes the portfolio with a list of assets (tickers) and their corresponding weights (proportions of the total investment).
-Methods:
-expected_return: Calculates the expected annual return of the portfolio by taking the dot product of the weights and the mean daily returns, then annualizing it by multiplying by 252 (the typical number of trading days in a year).
-portfolio_volatility: Calculates the annualized volatility of the portfolio. It computes the covariance matrix of daily returns, calculates the portfolio variance using the weights, and then takes the square root to get the standard deviation (volatility).
+<h3></h3>Class:</h3> Portfolio encapsulates the concept of a stock portfolio.
+<h3>Constructor (__init__):</h3> Initializes the portfolio with a list of assets (tickers) and their corresponding weights (proportions of the total investment).
+<h2>Methods:</h2>
+<h3>expected_return:</h3> Calculates the expected annual return of the portfolio by taking the dot product of the weights and the mean daily returns, then annualizing it by multiplying by 252 (the typical number of trading days in a year).
+<h3>portfolio_volatility:</h3> Calculates the annualized volatility of the portfolio. It computes the covariance matrix of daily returns, calculates the portfolio variance using the weights, and then takes the square root to get the standard deviation (volatility).
+
+<h2>5. Plotting Portfolio Performance</h2>
+<h3>Function: </h3> <h3>plot_portfolio_performance</h3> visualizes the cumulative returns of the portfolio.
+<h3>Calculating Portfolio Returns: </h3>It multiplies the daily returns by the weights of each asset and sums them to get the overall portfolio return for each day.
+<h3>Cumulative Returns:</h3> The cumulative returns are calculated by taking the product of (1 + daily returns) over time.
+<h3>Plotting: </h3>Uses matplotlib to create a line plot of cumulative returns over time.
