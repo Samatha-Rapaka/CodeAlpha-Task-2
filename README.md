@@ -7,7 +7,7 @@ Certainly! Let's break down the provided code step by step to understand its com
 <h3>matplotlib.pyplot:</h3> A plotting library used for creating static, animated, and interactive visualizations in Python.
 
 <h2>2. Fetching Stock Data</h2>
-<h3>Function: fetch_stock_data</h3> takes a list of stock tickers and a date range as input.
+<h3>Function:</h3><h3> fetch_stock_data</h3> takes a list of stock tickers and a date range as input.
 <h3>yfinance.download:</h3> This function fetches historical stock data for the specified tickers and date range.
 <h3>Return Value:</h3> The function returns the adjusted close prices, which account for dividends and stock splits, making them more accurate for analysis.
 
