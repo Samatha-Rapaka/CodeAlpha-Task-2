@@ -1,4 +1,4 @@
-# CodeAlpha-Task4
+# CodeAlpha-Task2
 Certainly! Let's break down the provided code step by step to understand its components and functionality.
 <h2>1. Importing Libraries</h2>
 <h3>yfinance:</h3> This library is used to fetch historical stock price data from Yahoo Finance.
