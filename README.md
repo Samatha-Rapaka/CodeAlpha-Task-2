@@ -1,4 +1,5 @@
-# CodeAlpha-Task2
+# Stock Portfolio Tracker
+<h2>Create a stock portfolio tracking tool that allows users to add, remove, and track the performance of their stock investments. Utilize financial APIs for real-time stock data.</h2>
 Certainly! Let's break down the provided code step by step to understand its components and functionality.
 <h2>1. Importing Libraries</h2>
 <h3>yfinance:</h3> This library is used to fetch historical stock price data from Yahoo Finance.
